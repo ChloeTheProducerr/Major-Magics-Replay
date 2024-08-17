@@ -1,0 +1,1605 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &110246171365635234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4309515812210399672}
+  - component: {fileID: 6369185762211477118}
+  - component: {fileID: 3178212579345903803}
+  - component: {fileID: 1254167442213355672}
+  m_Layer: 0
+  m_Name: Floodlight Blue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4309515812210399672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110246171365635234}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.07673883, y: -0.37837458, z: 0.30015245, w: 0.87226856}
+  m_LocalPosition: {x: 1.1898496, y: -0.44734943, z: 0.0415064}
+  m_LocalScale: {x: 0.7468652, y: 0.74686664, z: 0.74686515}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 44.579, y: -120.453, z: -82.476}
+--- !u!108 &6369185762211477118
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110246171365635234}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 0.35294116, g: 0.8327676, b: 1, a: 1}
+  m_Intensity: 0
+  m_Range: 4
+  m_SpotAngle: 157
+  m_InnerSpotAngle: 12.678534
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 4079
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0.1875, w: 6.9562445e-15}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 0
+  m_ForceVisible: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 0
+--- !u!114 &3178212579345903803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110246171365635234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 71
+  topOrBottom: 66
+  fadeSpeed: 0.0828
+  intensity: 3.5
+  intensityMultiplier: 1
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &1254167442213355672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110246171365635234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 0
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &2595312350788024454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7761421782713232600}
+  - component: {fileID: 5885107471095790571}
+  - component: {fileID: 301962461286407180}
+  - component: {fileID: 6093277093141906127}
+  m_Layer: 0
+  m_Name: Floodlight Blue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7761421782713232600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595312350788024454}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.2954715, y: -0.10041766, z: 0.40839726, w: 0.85780215}
+  m_LocalPosition: {x: -0.5707121, y: -0.13143884, z: 0.041506346}
+  m_LocalScale: {x: 0.7468661, y: 0.74686575, z: 0.7468654}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 53.632, y: -186.688, z: -135.77}
+--- !u!108 &5885107471095790571
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595312350788024454}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 0.35294116, g: 0.8327676, b: 1, a: 1}
+  m_Intensity: 0
+  m_Range: 4
+  m_SpotAngle: 157
+  m_InnerSpotAngle: 12.678534
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 4079
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0.1875, w: 6.9562445e-15}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 0
+  m_ForceVisible: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 0
+--- !u!114 &301962461286407180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595312350788024454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 71
+  topOrBottom: 66
+  fadeSpeed: 0.0828
+  intensity: 3.5
+  intensityMultiplier: 1
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &6093277093141906127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595312350788024454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 0
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &3416260821129163238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9001696051696583354}
+  - component: {fileID: 6454172416042793608}
+  - component: {fileID: 9096997348730009355}
+  - component: {fileID: 3001083195850449913}
+  m_Layer: 0
+  m_Name: Center Stage Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &9001696051696583354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3416260821129163238}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.032, y: 1.685, z: -0.155}
+  m_LocalScale: {x: 0.86733663, y: 0.8673342, z: 0.8673379}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7221682300720411494}
+  - {fileID: 3223597154784402958}
+  - {fileID: 931006003251082320}
+  - {fileID: 8944381749289794101}
+  - {fileID: 4309515812210399672}
+  - {fileID: 7761421782713232600}
+  - {fileID: 1546995323812867155}
+  - {fileID: 5734365217558145801}
+  - {fileID: 6020628710969785652}
+  - {fileID: 7520480956654517705}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!108 &6454172416042793608
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3416260821129163238}
+  m_Enabled: 0
+  serializedVersion: 11
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 23.873241
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 1
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!114 &9096997348730009355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3416260821129163238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 1
+  topOrBottom: 84
+  fadeSpeed: 0.0828
+  intensity: 0
+  intensityMultiplier: 0
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &3001083195850449913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3416260821129163238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &3523678560391661841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8944381749289794101}
+  - component: {fileID: 4716101363761347210}
+  - component: {fileID: 6610540186454168593}
+  - component: {fileID: 6019869709948926268}
+  m_Layer: 0
+  m_Name: Floodlight Blue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8944381749289794101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523678560391661841}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.20474863, y: -0.26773846, z: 0.3425218, w: 0.876968}
+  m_LocalPosition: {x: 0.3827826, y: -0.16948542, z: 0.041506346}
+  m_LocalScale: {x: 0.74686545, y: 0.7468662, z: 0.7468651}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 50.605, y: -148.741, z: -106.072}
+--- !u!108 &4716101363761347210
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523678560391661841}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 0.35294116, g: 0.8327676, b: 1, a: 1}
+  m_Intensity: 0
+  m_Range: 4
+  m_SpotAngle: 157
+  m_InnerSpotAngle: 12.678534
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 4079
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0.1875, w: 6.9562445e-15}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 0
+  m_ForceVisible: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 0
+--- !u!114 &6610540186454168593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523678560391661841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 71
+  topOrBottom: 66
+  fadeSpeed: 0.0828
+  intensity: 3.5
+  intensityMultiplier: 1
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &6019869709948926268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523678560391661841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 0
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &4318150685510246426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3223597154784402958}
+  - component: {fileID: 4568049589491596640}
+  - component: {fileID: 361973037003237810}
+  - component: {fileID: 4772912436194929031}
+  m_Layer: 0
+  m_Name: Floodlight Red
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3223597154784402958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318150685510246426}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.30863956, y: -0.0532788, z: 0.1180006, w: 0.94232637}
+  m_LocalPosition: {x: -0.32628453, y: -0.11414424, z: 0.041506346}
+  m_LocalScale: {x: 0.74686533, y: 0.74686646, z: 0.74686545}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 53.495, y: -177.343, z: -163.068}
+--- !u!108 &4568049589491596640
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318150685510246426}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 1, g: 0.39018178, b: 0.31199998, a: 1}
+  m_Intensity: 0
+  m_Range: 4
+  m_SpotAngle: 157
+  m_InnerSpotAngle: 12.678534
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 4079
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 0
+  m_ForceVisible: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 0
+--- !u!114 &361973037003237810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318150685510246426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 74
+  topOrBottom: 66
+  fadeSpeed: 0.0828
+  intensity: 3.5
+  intensityMultiplier: 1
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &4772912436194929031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318150685510246426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 0
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &5434322461749459303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1546995323812867155}
+  - component: {fileID: 7404152505012650823}
+  - component: {fileID: 5447563617746977584}
+  - component: {fileID: 2513557446298832874}
+  m_Layer: 0
+  m_Name: Floodlight Orange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1546995323812867155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434322461749459303}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.23533633, y: 0.018296761, z: -0.25060764, w: 0.9388705}
+  m_LocalPosition: {x: -0.10145908, y: -0.11760174, z: 0.038047187}
+  m_LocalScale: {x: 0.7468659, y: 0.74686635, z: 0.746865}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 62.693, y: -169.5, z: -199.391}
+--- !u!108 &7404152505012650823
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434322461749459303}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 1, g: 0.58050585, b: 0.18431371, a: 1}
+  m_Intensity: 0
+  m_Range: 4
+  m_SpotAngle: 157
+  m_InnerSpotAngle: 12.678534
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 4079
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: 0, w: 1.0776478e+10}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 0
+  m_ForceVisible: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 0
+--- !u!114 &5447563617746977584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434322461749459303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 73
+  topOrBottom: 66
+  fadeSpeed: 0.0828
+  intensity: 3.5
+  intensityMultiplier: 1
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &2513557446298832874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434322461749459303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 0
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &5753307846970243273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 931006003251082320}
+  - component: {fileID: 790302516803858644}
+  - component: {fileID: 8982360695710230630}
+  - component: {fileID: 1862794238170162091}
+  m_Layer: 0
+  m_Name: Floodlight Red
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &931006003251082320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753307846970243273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.2894829, y: 0.19853802, z: 0.18841372, w: 0.91721463}
+  m_LocalPosition: {x: -1.2728629, y: -0.3528058, z: 0.04150636}
+  m_LocalScale: {x: 0.7468657, y: 0.74686605, z: 0.7468651}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 48.9, y: -226.052, z: -202.836}
+--- !u!108 &790302516803858644
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753307846970243273}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 1, g: 0.39018178, b: 0.31199998, a: 1}
+  m_Intensity: 0
+  m_Range: 4
+  m_SpotAngle: 157
+  m_InnerSpotAngle: 12.678534
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 4079
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 0
+  m_ForceVisible: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 0
+--- !u!114 &8982360695710230630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753307846970243273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 74
+  topOrBottom: 66
+  fadeSpeed: 0.0828
+  intensity: 3.5
+  intensityMultiplier: 1
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &1862794238170162091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753307846970243273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 0
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &6991322500743620314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6020628710969785652}
+  - component: {fileID: 2981225486289301775}
+  - component: {fileID: 3791454033596312014}
+  - component: {fileID: 7196486966801275914}
+  m_Layer: 0
+  m_Name: Floodlight Orange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6020628710969785652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6991322500743620314}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3221879, y: -0.18479536, z: -0.3334565, w: 0.8665174}
+  m_LocalPosition: {x: 0.83012706, y: -0.27786523, z: 0.038047206}
+  m_LocalScale: {x: 0.7468664, y: 0.7468655, z: 0.74686515}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 46.393, y: -129.115, z: -171.211}
+--- !u!108 &2981225486289301775
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6991322500743620314}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 1, g: 0.58050585, b: 0.18431371, a: 1}
+  m_Intensity: 0
+  m_Range: 4
+  m_SpotAngle: 157
+  m_InnerSpotAngle: 12.678534
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 4079
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: 0, w: 1.0776478e+10}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 0
+  m_ForceVisible: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 0
+--- !u!114 &3791454033596312014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6991322500743620314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 73
+  topOrBottom: 66
+  fadeSpeed: 0.0828
+  intensity: 3.5
+  intensityMultiplier: 1
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &7196486966801275914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6991322500743620314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 0
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &7085531370517593811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7221682300720411494}
+  - component: {fileID: 1392722291239970260}
+  - component: {fileID: 2940998209786173505}
+  - component: {fileID: 2090626500569415813}
+  m_Layer: 0
+  m_Name: Floodlight Red
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7221682300720411494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7085531370517593811}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.2675521, y: -0.23926398, z: 0.03767458, w: 0.9326035}
+  m_LocalPosition: {x: 0.5937728, y: -0.18562776, z: 0.041506346}
+  m_LocalScale: {x: 0.7468652, y: 0.7468665, z: 0.7468652}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 47.931, y: -140.508, z: -135.881}
+--- !u!108 &1392722291239970260
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7085531370517593811}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 1, g: 0.39018178, b: 0.31199998, a: 1}
+  m_Intensity: 0
+  m_Range: 4
+  m_SpotAngle: 157
+  m_InnerSpotAngle: 12.678534
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 4079
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 0
+  m_ForceVisible: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 0
+--- !u!114 &2940998209786173505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7085531370517593811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 74
+  topOrBottom: 66
+  fadeSpeed: 0.0828
+  intensity: 3.5
+  intensityMultiplier: 1
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &2090626500569415813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7085531370517593811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 0
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &7309642107210311573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7520480956654517705}
+  - component: {fileID: 6116360063763187348}
+  m_Layer: 0
+  m_Name: Fiber Stars
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7520480956654517705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309642107210311573}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.06041568, y: -1.1914678, z: 0.571404}
+  m_LocalScale: {x: 3.07839, y: 0.746867, z: 0.7468684}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!114 &6116360063763187348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309642107210311573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 75
+  topOrBottom: 66
+  fadeSpeed: 0.078
+  intensity: 0.2
+  intensityMultiplier: 200
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 1
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 5
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 1
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!1 &8375790588307064206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5734365217558145801}
+  - component: {fileID: 2166035965479636550}
+  - component: {fileID: 4884427247132331762}
+  - component: {fileID: 4346439866872687800}
+  m_Layer: 0
+  m_Name: Floodlight Orange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5734365217558145801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375790588307064206}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.20259969, y: 0.28458777, z: -0.1543015, w: 0.9242046}
+  m_LocalPosition: {x: -1.0376589, y: -0.2859362, z: 0.038047206}
+  m_LocalScale: {x: 0.74686515, y: 0.74686694, z: 0.7468652}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9001696051696583354}
+  m_LocalEulerAnglesHint: {x: 49.106, y: -225.074, z: -244.031}
+--- !u!108 &2166035965479636550
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375790588307064206}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 1, g: 0.58050585, b: 0.18431371, a: 1}
+  m_Intensity: 0
+  m_Range: 4
+  m_SpotAngle: 157
+  m_InnerSpotAngle: 12.678534
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 4079
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: 0, w: 1.0776478e+10}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 0
+  m_ForceVisible: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
+  m_LightUnit: 0
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 0
+--- !u!114 &4884427247132331762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375790588307064206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92df1afcc2ca874ca65df15b4f97f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightBit: 73
+  topOrBottom: 66
+  fadeSpeed: 0.0828
+  intensity: 3.5
+  intensityMultiplier: 1
+  colorPatterns: 0
+  strobe: 0
+  flash: 0
+  materialLight: 0
+  emissiveObject: {fileID: 0}
+  emmissiveMatName: 
+  emissiveMultiplier: 1
+  emissiveMatColor: {r: 1, g: 1, b: 1, a: 1}
+  invertBit: 0
+  materialStars: 0
+  helicopter: 0
+  chuckStar: 0
+  randomspin: 0
+  starCookies: []
+--- !u!114 &4346439866872687800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375790588307064206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 0
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
