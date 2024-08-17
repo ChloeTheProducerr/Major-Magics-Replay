@@ -1,0 +1,12 @@
+Speed In:
+0.4
+
+Accel In:
+0.3
+
+
+Speed Out:
+0.4
+
+Accel Out:
+0.3
