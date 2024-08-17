@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Simulator/Scenes/Title Screen/Splash.unity
+    guid: de49bcbf75f741a4fbee95eca74160ae
+  - enabled: 1
+    path: Assets/Simulator/Scenes/Title Screen/Title Screen.unity
+    guid: ed5ff1444e247e341939f089ec4e9f9e
+  - enabled: 0
+    path: Assets/Simulator/Scenes/Maps/Swift's Superb Show/MAP Programmer Hub.unity
+    guid: 628198745a67b0f48be5454cdd6d6ed5
+  - enabled: 1
+    path: Assets/Simulator/Scenes/Maps/Chuck E Cheese/CRAE/MAP 3-Stage CEC.unity
+    guid: 6ba9a4d3d87e44643933e7a14f3f06d9
+  - enabled: 0
+    path: Assets/Simulator/Scenes/Maps/Chuck E Cheese/CYBERS/MAP PTT Cybers.unity
+    guid: 086d72e9f31166b4db12584339b1221b
+  - enabled: 0
+    path: Assets/Simulator/Scenes/Maps/Chuck E Cheese/CYBERS/MAP Modern Cybers.unity
+    guid: 0918d0a2d33e9234297b03fbaabea401
+  - enabled: 0
+    path: Assets/Simulator/Scenes/Maps/Retrofits/MAP Rocky and the Railroad Ramblers.unity
+    guid: d987d0897c480e64387cde4ee0f8155e
+  - enabled: 0
+    path: Assets/Simulator/Scenes/Maps/Rockafire Explosion/RAE/MAP 3-Stage RAE.unity
+    guid: 7c2d896c743e8db48aa1ed9ae32f51e6
+  - enabled: 0
+    path: Assets/Simulator/Scenes/Maps/Bark Street/MAP_BSB.unity
+    guid: 3a5c7c62bfd36244f8c8515fe076139a
+  - enabled: 0
+    path: Assets/Simulator/Scenes/Editor/MAP Editor.unity
+    guid: 8f4c23e7bd2653e4c8d8f932f53158ba
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1ad4485362b30e14db989c88e5cdf70e, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 396d6d3e9c771e24ea59ebd25ab84624, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4d8addbb2bdaa9a4eb893d76b74fd032, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: d574d7c21e70c7f4e9d1b21d668fb320, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 8ef2f4a735fe1244ab1671c93326a7d4, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 32991a67a12ee09419c5466f7acf2afd, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: ef9aa94fb1cc37a45b9c0fab93a70a9d, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 35d5a47c526b4394e9084614dff5de6e, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4783819784946a240b7dd6cea890a0f2, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: caa6ada34242ebb4987671a284358363, type: 2}
+  m_UseUCBPForAssetBundles: 0
